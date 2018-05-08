@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no"/>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/quan.css"/>
+		<script src="js/swiper.js"></script>
+		<script src="js/swiper.min.js"></script>
+	</head>
+	<body>
+		<header>	
+			<div class="top"><img src="qimg/2017-06-01_162540.png"/></div>
+			<div class="hea">
+				<img src="qimg/01.png" class="on"/>
+				<img src="qimg/02.png" class="tn"/>
+				<img src="qimg/03.png" class="sn"/>
+			</div>
+			<div class="search_box">
+				<span><img src="qimg/2017-06-01_162631.png"/></span>
+				<div class="search_b">
+					<a href=""><img src="jimg/ss.png"/></a>
+					<input type="text" placeholder="动动小手，购遍全球" />
+				</div>
+			</div>
+		</header>
+		<article>
+		    <div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="jimg/2017-06-01_160601.png" alt="" /></div>
+					<div class="swiper-slide"><img src="jimg/2017-06-01_160601.png" alt="" /></div>
+					<div class="swiper-slide"><img src="jimg/2017-06-01_160601.png" alt="" /></div>
+					<div class="swiper-slide"><img src="jimg/2017-06-01_160601.png" alt="" /></div>
+				</div>			
+				<div class="swiper-pagination"></div>
+				<!--<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>-->
+		     </div>
+		     <div class="pin_img">
+		     	<div class="list_img">
+		     		<img src="qimg/2017-06-01_162644.png"/>
+		     		<p>母婴馆</p>
+		     	</div>
+		     	<div class="list_img">
+		     		<img src="qimg/2017-06-01_162653.png"/>
+		     		<p>保健馆</p>
+		     	</div>
+		     	<div class="list_img">
+		     		<img src="qimg/2017-06-01_162659.png"/>
+		     		<p>美妆馆</p>
+		     	</div>
+		     	<div class="list_img">
+		     		<img src="qimg/2017-06-01_162708.png"/>
+		     		<p>食品馆</p>
+		     	</div>
+		     	<div class="list_img">
+		     		<img src="qimg/2017-06-01_162732.png"/>
+		     		<p>全球名店</p>
+		     	</div>
+		     	<div class="list_img">
+		     		<img src="qimg/2017-06-01_162741.png"/>
+		     		<p>数码家电</p>
+		     	</div>
+		     	<div class="list_img">
+		     		<img src="qimg/2017-06-01_162749.png"/>
+		     		<p>汽车用品</p>
+		     	</div>
+		     	<div class="list_img">
+		     		<img src="qimg/2017-06-01_162759.png"/>
+		     		<p>家居馆</p>
+		     	</div>
+		     	<div class="list_img">
+		     		<img src="qimg/2017-06-01_162807.png"/>
+		     		<p>钟表馆</p>
+		     	</div>
+		     	<div class="list_img">
+		     		<img src="qimg/2017-06-01_162759.png"/>
+		     		<p>母婴馆</p>
+		     	</div>
+		     </div>
+		     <div class="big_">
+		     	<img src="qimg/2017-06-01_162846.png"/>
+		     </div>
+		     <div class="midde">
+		     	<p class="re">品质好货</p>
+		     	<p class="we"><span><img src="qimg/2017-06-01_163035.png"/></span>爆款直降 手慢无</p>
+		     </div>
+		     <div class="bady_img">
+		     	<img src="qimg/2017-06-01_162923.png"/>
+		     	<img src="qimg/2017-06-01_162937.png"/>
+		     	<img src="qimg/2017-06-01_162956.png"/>
+		     </div>
+		     <div class="foot">
+				<a href="jingdong.html">
+					<div class="lis">
+					<img src="qimg/2017-06-01_163008.png"/>
+					<p>京东</p>
+				</div>
+				</a>
+				<a href="juhuasuan.html">
+				<div class="lis">
+					<img src="qimg/2017-06-01_163027.png"/>
+					<p>聚划算</p>
+				</div>
+				</a>
+				<a href="">
+				<div class="lis">
+					<img src="qimg/2017-06-01_163035.png"/>
+					<p>热点</p>
+				</div>
+				</a>
+				<a href="">
+				<div class="lis">
+					<img src="qimg/2017-06-01_163041.png"/>
+					<p>菜单</p>
+				</div>
+				</a>
+			</div>
+			</div>
+		     
+		</article>
+		<footer>
+			<div class="none"></div>
+		</footer>
+		
+		
+		
+	</body>
+	<script>
+		document.documentElement.style.fontSize=innerWidth/16+'px';
+		onresize=function(){		
+		document.documentElement.style.fontSize=innerWidth/16+'px';
+		}
+		var move=new Swiper(".swiper-container",{
+			autoplay:1000,
+			initialSlide:0,
+			speed:1000,
+			loop:true,
+			effect:"slide",
+			pagination:'.swiper-pagination',
+			paginationClickable:true,
+			prevButton:".swiper-button-prev",
+			nextButton:".swiper-button-next",
+			autoplayDisableOnInteraction:false,
+			freeMode : true,
+		})
+		
+	</script>
+	
+</html>

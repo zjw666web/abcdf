@@ -1,0 +1,109 @@
+
+*{margin: 0;padding: 0;}
+a{
+	text-decoration: none;color: #333;
+}
+ul{
+	list-style: none;
+}
+img{
+	vertical-align: middle;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+/**/
+header .top{
+	width: 16rem;height: 0.5rem;margin-top: -0.3rem;
+}
+header .top img{
+	width: 16rem;
+}
+/**/
+.hear{
+	width: 16rem;height:1.52rem;background: #E6131A;margin-top: 0.67rem;
+	display: flex;
+}
+.hear>img{
+	width: 1.52rem;height: 1.48rem;
+}
+.hear p{
+	color: #fff;font-weight: bold;margin: auto
+}
+.hear_r img{
+	width: 1.52rem;height: 1.48rem;
+}
+/**/
+.nav{
+	width: 16rem;height: 1.75rem;display:flex;font-size: 0.7rem;
+}
+.nav a{
+	margin: auto;
+}
+.nav a img{
+	width: 1.52rem;height: 1rem;
+}
+/**/
+.swiper-slide img{
+	width: 16rem;height: 8.25rem;
+}
+.one{
+	width: 16rem;height: 5rem;
+}
+.one img{
+	width: 16rem;height: 5rem;
+}
+/**/
+.dou{
+	width: 16rem;display: flex;flex-wrap: wrap;height:9.2rem ;
+}
+.dou .ff{
+	width: 4rem;height: 4rem;font-size: 0.5rem;text-align: center;
+}
+.dou .ff span{
+	color: #ff0036;
+}
+.dou img{
+	width: 4rem;height: 4rem;
+}
+.dou .tow_w{
+	width: 8rem;height: 4rem;
+}
+/**/
+.tow{
+	width: 16rem;height:2.5rem;
+}
+.tow img{
+	width: 16rem;height:2.5rem;
+}
+
+/**/
+.foot{
+	width: 16rem;height: 2rem;position: fixed;bottom: 0;background: #F9F9F9;
+	display: flex;font-size: 0.6rem;justify-content: space-around;
+}
+.foot .lis{
+	width: 2.1rem;height: 2.1rem;
+}
+.foot .lis img{
+	width: 1.2rem;height: 1.2rem;
+}
+/**/
+.herf_img{
+	width: 16rem;height:2.5rem ;display: flex;justify-content: space-around;
+}
+.herf_img img{
+	width: 4.5rem;height: 2.5rem;
+}
+.none{
+	width: 16rem;height: 2rem;
+}
+
+
+
+
+
+

@@ -1,0 +1,130 @@
+*{margin: 0;padding: 0;}
+a{
+	text-decoration: none;color: #333;
+}
+ul{
+	list-style: none;
+}
+img{
+	vertical-align: middle;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+/**/
+.top img{
+	width: 16rem;
+}
+/**/
+.hea{
+	width: 16rem;height: 1.6rem;border-bottom: 0.02rem solid #999;display: flex;
+}
+.hea .on{
+	width: 1.3rem;height: 1.3rem;
+}
+.hea .tn{
+	width: 5rem;
+}
+.hea .sn{
+	width:5rem;height:1.5rem;
+}
+.hea img{
+	margin: auto;
+}
+/**/
+.search_box{
+	width: 16rem;height:1.5rem;display: flex;
+}
+.search_box span img{
+	width:1.4rem;height: 1.4rem;
+}
+.search_b{
+	width: 14rem;height: 1.4rem;border-radius: 0.7rem;background: #eee;display: flex;
+	justify-content: center;align-items: center;
+}
+.search_b img{
+	width: 1rem;height: 0.9rem;margin-left: 0.2rem;
+}
+.search_b input{
+	border: none;width: 12rem;height: 1.2rem;background: #eee;
+	font-size: 0.6rem;outline: none;padding-left: 0.2rem;
+}
+/**/
+.swiper-container{
+	margin-top: 0.5rem;
+}
+.swiper-slide img{
+	width: 16rem;height: 5.2rem;
+}
+.swiper-slide{
+	width: 16rem;
+}
+/**/
+
+.pin_img{
+	width: 16rem;display: flex;flex-wrap: wrap;
+	font-size: 0.5rem;
+}
+.pin_img .list_img{
+	width: 3rem;height: 3rem;margin: auto;text-align: center;
+	color: #999;
+}
+.pin_img .list_img img{
+	width: 2rem;
+}
+/**/
+.big_ img{
+	width: 16rem;
+}
+/**/
+.midde{
+	width: 16rem;text-align: center;height: 2.5rem;
+}
+.midde p span img{
+	width: 0.5rem;height: 0.5rem;
+}
+.midde .re{
+	color: #ff0036;font-weight: bold;font-size: 0.8rem;
+}
+.midde .we{
+	font-size: 0.5rem;color: #999;margin-top:0.2rem;
+}
+/**/
+.bady_img{
+	width: 16rem;display: flex;height:4.25rem;justify-content: space-around;
+}
+.bady_img img{
+	width: 5rem;
+}
+/**/
+.foot{
+	width: 16rem;height: 2rem;position: fixed;bottom: 0;background: #F9F9F9;
+	display: flex;font-size: 0.6rem;justify-content: space-around;
+}
+.foot .lis{
+	width: 2.1rem;height: 2.1rem;
+}
+.foot .lis img{
+	width: 1.2rem;height: 1.2rem;
+}
+/**/
+.herf_img{
+	width: 16rem;height:2.5rem ;display: flex;justify-content: space-around;
+}
+.herf_img img{
+	width: 4.5rem;height: 2.5rem;
+}
+/**/
+.none{
+	width: 16rem;height: 2.2rem;
+}
+
+
+
+
+
+
+

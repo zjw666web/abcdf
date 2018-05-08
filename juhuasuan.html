@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no"/>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ju.css"/>
+		<script src="js/swiper.js"></script>
+		<script src="js/swiper.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="top"><img src="juimg/2017-06-01_201959.png"/></div>
+			<div class="hear">
+				<img src="juimg/bb.png"/>
+				<p>聚划算</p>
+				<div class="hear_r">
+				  	<img src="juimg/2017-06-01_161502.png"/>
+				  	<img src="juimg/qq.png"/>			
+				</div>
+			</div>
+			<div class="nav">
+				<a href=""><span>全部</span></a>
+				<a href="">女装</a>
+				<a href="">男装</a>
+				<a href="">鞋包</a>
+				<a href="">运动</a>
+				<a href="">内衣饰品</a>
+				<a href=""><img src="juimg/ww.png"/></a>
+			</div>
+		</header>
+		<article>
+		   <div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="juimg/2017-06-01_161536.png" alt="" /></div>
+					<div class="swiper-slide"><img src="juimg/2017-06-01_161536.png" alt="" /></div>
+					<div class="swiper-slide"><img src="jimg/2017-06-01_160601.png" alt="" /></div>
+					<div class="swiper-slide"><img src="juimg/2017-06-01_161536.png" alt="" /></div>
+				</div>			
+				<div class="swiper-pagination"></div>
+				<!--<div class="swiper-button-prev"></div>-->
+				<!--<div class="swiper-button-next"></div>-->
+		     </div>
+			<div class="one">
+				<img src="juimg/2017-06-01_161610.png"/>
+			</div>
+			<div class="dou">
+				<div class="ff">
+					<p>非常大牌</p>
+					<p>大牌尖货抄低价</p>
+					<p><span>型男必败清单</span></p>
+				</div>
+				<img src="juimg/2017-06-01_161633.png"/>
+				<img src="juimg/2017-06-01_161646.png"/>
+				<img src="juimg/2017-06-01_161703.png"/>
+				<div class="ff">
+					<p>非常大牌</p>
+					<p>大牌尖货抄低价</p>
+					<p><span>型男必败清单</span></p>
+				</div>
+				<img src="juimg/2017-06-01_161725.png"/>
+				<img src="juimg/2017-06-01_161751.png" class="tow_w"/>
+			</div>
+			<!---->
+			<div class="tow">
+				<img src="juimg/2017-06-01_161806.png"/>
+			</div>
+			<!---->
+			<div class="foot">
+				<a href="jingdong.html">
+					<div class="lis">
+					<img src="juimg/2017-06-01_161823.png"/>
+					<p>京东</p>
+				</div>
+				</a>
+				<a href="quanqiu.html">
+				<div class="lis">
+					<img src="juimg/2017-06-01_161851.png"/>
+					<p>全球购</p>
+				</div>
+				</a>
+				<a href="">
+				<div class="lis">
+					<img src="juimg/2017-06-01_161921.png"/>
+					<p>东家菜</p>
+				</div>
+				</a>
+				<a href="">
+				<div class="lis">
+					<img src="juimg/2017-06-01_161910.png"/>
+					<p>优选100</p>
+				</div>
+				</a>
+			</div>
+			</div>
+		</article>
+		<footer>
+			<div class="none"></div>
+		</footer>
+	</body>
+	<script>
+		document.documentElement.style.fontSize=innerWidth/16+'px';
+		onresize=function(){		
+		document.documentElement.style.fontSize=innerWidth/16+'px';
+		}
+		var move=new Swiper(".swiper-container",{
+			autoplay:1000,
+			initialSlide:0,
+			speed:1000,
+			loop:true,
+			effect:"slide",
+			pagination:'.swiper-pagination',
+			paginationClickable:true,
+			prevButton:".swiper-button-prev",
+			nextButton:".swiper-button-next",
+			autoplayDisableOnInteraction:false,
+			freeMode : true,
+		})
+		
+		
+		
+	</script>
+</html>
